@@ -1,19 +1,19 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `Isaac Jacob Ingles | Web Developer`,
     author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      name: `Isaac Ingles`,
+      summary: `Web Developer based in West Jordan, Utah.`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.app/`,
+    description: `Portfolio, Resume, and Blog.`,
+    siteUrl: `https://isaacingles.com`,
     social: {
-      twitter: `kylemathews`,
+      twitter: `digitaljourneys`,
     },
   },
   plugins: [
     {
-      resolve: `gatsby-source-filesystem`,
+      resolve: `gatsby-source-filesystem`,      
       options: {
         path: `${__dirname}/content/blog`,
         name: `blog`,
@@ -42,6 +42,7 @@ module.exports = {
               wrapperStyle: `margin-bottom: 1.0725rem`,
             },
           },
+          `gatsby-plugin-sass`,
           `gatsby-remark-prismjs`,
           `gatsby-remark-copy-linked-files`,
           `gatsby-remark-smartypants`,
