@@ -1,0 +1,39 @@
+main {
+    padding-top: 10rem;
+    background-color: $bgSecondary;
+
+    .content-box {
+        background: #fff;
+        margin-bottom: 1rem;
+        border: 1px solid #ccc;
+        border-radius: 2rem;
+        padding: 5rem;
+    }
+
+    #about {
+    
+        .section-header {
+            width: 100%;
+            background: url("https://longjourney.digital/img/journey-begin.87b42ada.jpg") no-repeat center center;
+            background-size: 100%;
+            
+            .header-text {
+                background: rgba(255,255,255, 0.9);
+            }
+        }
+     
+    
+        img {
+            border-radius: 50%;
+            width: 250px;
+        }
+    
+        .about-body {
+  
+            h3 {
+                margin: 2rem 0;
+            }
+        }
+    }
+}
+
