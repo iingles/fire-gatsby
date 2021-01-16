@@ -5,10 +5,10 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 
 const Index = ({ data, location }) => {
-  const siteTitle = data.site.siteMetadata?.title || `Title`
+//   const siteTitle = data.site.siteMetadata?.title || `Title`
 
   return (
-    <Layout {...location} title={siteTitle}>
+    <Layout location={location}>
       <SEO title="Welcome to Isaac's Blog" />
 
         <div className="container">

@@ -13,6 +13,20 @@ module.exports = {
   },
   plugins: [
     {
+      resolve: "gatsby-plugin-firebase",
+      options: {
+        credentials: {
+          apiKey: "AIzaSyAG7ICq8n6tDxPqD2YNm7Fm1GXthWwvTF4",
+          authDomain: "fire-gatsby.firebaseapp.com",
+          projectId: "fire-gatsby",
+          storageBucket: "fire-gatsby.appspot.com",
+          messagingSenderId: "237388217873",
+          appId: "1:237388217873:web:31e27515470b2769a07bb0",
+          measurementId: "G-3MB33P9QQ1"
+        }
+      }
+    },
+    {
       resolve: `gatsby-source-filesystem`,      
       options: {
         path: `${__dirname}/content/blog`,
