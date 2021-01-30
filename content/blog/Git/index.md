@@ -1,5 +1,5 @@
 ---
-title: Git
+title: Git Basics
 date: "2021-01-27T17:30:03.284Z"
 description: "Git - A Summary"
 ---
