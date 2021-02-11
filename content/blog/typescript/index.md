@@ -1,11 +1,14 @@
 ---
-title: Research and Learning
+title: Typescript
 date: "2021-02-11T17:30:03.284Z"
 description: "Typescript"
 ---
 
+---
+
 # Typescript
 
+---
 
 ## What is TypeScript?
 
